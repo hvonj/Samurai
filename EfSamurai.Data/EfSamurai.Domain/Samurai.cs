@@ -10,5 +10,6 @@ namespace EfSamurai.Domain
         public string Name { get; set; }
         public int Age { get; set; }
         public List<Quote> ListOfQuotes { get; set; }
+        public Hairstyle Hairstyle { get; set; }
     }
 }
