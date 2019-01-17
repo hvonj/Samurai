@@ -8,5 +8,6 @@ namespace EfSamurai.Domain
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public List<BattleEvents> BattleEventList { get; set; }
     }
 }
