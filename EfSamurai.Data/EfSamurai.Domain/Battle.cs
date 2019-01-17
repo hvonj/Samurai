@@ -4,14 +4,15 @@ using System.Text;
 
 namespace EfSamurai.Domain
 {
-    public class Samurai
+    public class Battle
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Age { get; set; }
-        public List<Quote> ListOfQuotes { get; set; }
-        public Hairstyle Hairstyle { get; set; }
-        public SecretIdentity SecretIdentity { get; set; }
+        public string Info { get; set; }
+        public bool Brutal { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
         public List<SamuraiBattle> SamuraiBattle { get; set; }
+
     }
 }
