@@ -7,6 +7,7 @@ using System.Text;
 public class SamuraiContext : DbContext
 {
     public DbSet<Samurai> Samurais { get; set; }
+    public object Battle { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
